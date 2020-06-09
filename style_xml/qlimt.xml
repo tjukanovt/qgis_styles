@@ -1,0 +1,49 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol clip_to_extent="1" name="qlimt" force_rhr="0" type="fill" alpha="1">
+      <layer enabled="1" pass="0" locked="0" class="GeometryGenerator">
+        <prop v="Fill" k="SymbolType"/>
+        <prop v="with_variable('my_geom',&#xd;&#xa;CASE WHEN &#xd;&#xa; num_geometries( $geometry)>1&#xd;&#xa; THEN &#xd;&#xa;   geometry_n(  $geometry,  @geometry_part_num)&#xd;&#xa;  ELSE&#xd;&#xa;    $geometry&#xd;&#xa;  END,&#xd;&#xa;  with_variable('shape',rand(1,4),&#xd;&#xa;  CASE WHEN &#xd;&#xa;  @shape =1&#xd;&#xa;  THEN &#xd;&#xa;  minimal_circle( @my_geom )&#xd;&#xa;  WHEN&#xd;&#xa;  @shape =2&#xd;&#xa;  THEN&#xd;&#xa;  oriented_bbox( @my_geom )&#xd;&#xa;  WHEN&#xd;&#xa;  @shape =3&#xd;&#xa;  THEN&#xd;&#xa;  oriented_bbox( @my_geom )&#xd;&#xa;  WHEN&#xd;&#xa;  @shape =4&#xd;&#xa;  THEN&#xd;&#xa;   simplify(@my_geom, rand(1,20))&#xd;&#xa;  END))&#xd;&#xa;  " k="geometryModifier"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol clip_to_extent="1" name="@qlimt@0" force_rhr="0" type="fill" alpha="1">
+          <layer enabled="1" pass="0" locked="0" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="50,55,150,255" k="color"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.2" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties" type="Map">
+                  <Option name="fillColor" type="Map">
+                    <Option value="true" name="active" type="bool"/>
+                    <Option value="with_variable('color', rand(1,6), &#xd;&#xa;CASE WHEN &#xd;&#xa;&#x9;@color = 1&#xd;&#xa;&#x9;THEN '#323796'&#xd;&#xa;&#x9;WHEN&#xd;&#xa;&#x9;@color = 2&#xd;&#xa;&#x9;THEN '#ca2222'&#xd;&#xa;&#x9;WHEN&#xd;&#xa;&#x9;@color = 3&#xd;&#xa;&#x9;THEN '#a5aaa0'&#xd;&#xa;&#x9;WHEN&#xd;&#xa;&#x9;@color = 4&#xd;&#xa;&#x9;THEN '#e5ce9c'&#xd;&#xa;&#x9;WHEN&#xd;&#xa;&#x9;@color = 5&#xd;&#xa;&#x9;THEN '#ab933c'&#xd;&#xa;&#x9;WHEN&#xd;&#xa;&#x9;@color = 6&#xd;&#xa;&#x9;THEN '#f4b308'&#xd;&#xa;&#x9;END&#xd;&#xa;)" name="expression" type="QString"/>
+                    <Option value="3" name="type" type="int"/>
+                  </Option>
+                </Option>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+</qgis_style>
