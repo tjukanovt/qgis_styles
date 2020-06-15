@@ -1,0 +1,153 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol tags="Showcase" clip_to_extent="1" name="digital_rain" force_rhr="0" alpha="1" type="fill">
+      <layer class="SimpleLine" pass="0" enabled="1" locked="0">
+        <prop v="square" k="capstyle"/>
+        <prop v="5;2" k="customdash"/>
+        <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+        <prop v="MM" k="customdash_unit"/>
+        <prop v="0" k="draw_inside_polygon"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,255,0,13" k="line_color"/>
+        <prop v="solid" k="line_style"/>
+        <prop v="1" k="line_width"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="-1" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0" k="ring_filter"/>
+        <prop v="0" k="use_custom_dash"/>
+        <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer class="LinePatternFill" pass="0" enabled="1" locked="0">
+        <prop v="90" k="angle"/>
+        <prop v="0,0,0,255" k="color"/>
+        <prop v="5" k="distance"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_map_unit_scale"/>
+        <prop v="MM" k="distance_unit"/>
+        <prop v="0.5" k="line_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="line_width_map_unit_scale"/>
+        <prop v="MM" k="line_width_unit"/>
+        <prop v="0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol clip_to_extent="1" name="@digital_rain@1" force_rhr="0" alpha="1" type="line">
+          <layer class="SimpleLine" pass="0" enabled="1" locked="0">
+            <prop v="square" k="capstyle"/>
+            <prop v="5;2" k="customdash"/>
+            <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+            <prop v="MM" k="customdash_unit"/>
+            <prop v="0" k="draw_inside_polygon"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="0,208,0,25" k="line_color"/>
+            <prop v="solid" k="line_style"/>
+            <prop v="3" k="line_width"/>
+            <prop v="MM" k="line_width_unit"/>
+            <prop v="0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0" k="ring_filter"/>
+            <prop v="0" k="use_custom_dash"/>
+            <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties" type="Map">
+                  <Option name="outlineColor" type="Map">
+                    <Option value="true" name="active" type="bool"/>
+                    <Option value="concat(&#xd;&#xa;rand(0,5),',',&#xd;&#xa;rand(200,255),',',&#xd;&#xa;rand(0,5),',',&#xd;&#xa;rand(25,50))" name="expression" type="QString"/>
+                    <Option value="3" name="type" type="int"/>
+                  </Option>
+                </Option>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer class="PointPatternFill" pass="0" enabled="1" locked="0">
+        <prop v="0" k="displacement_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_x_map_unit_scale"/>
+        <prop v="MM" k="displacement_x_unit"/>
+        <prop v="0" k="displacement_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="displacement_y_map_unit_scale"/>
+        <prop v="MM" k="displacement_y_unit"/>
+        <prop v="3" k="distance_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_x_map_unit_scale"/>
+        <prop v="MM" k="distance_x_unit"/>
+        <prop v="2.5" k="distance_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="distance_y_map_unit_scale"/>
+        <prop v="MM" k="distance_y_unit"/>
+        <prop v="0" k="offset_x"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_x_map_unit_scale"/>
+        <prop v="MM" k="offset_x_unit"/>
+        <prop v="0" k="offset_y"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_y_map_unit_scale"/>
+        <prop v="MM" k="offset_y_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol clip_to_extent="1" name="@digital_rain@2" force_rhr="0" alpha="1" type="marker">
+          <layer class="FontMarker" pass="0" enabled="1" locked="0">
+            <prop v="0" k="angle"/>
+            <prop v="A" k="chr"/>
+            <prop v="25,255,0,255" k="color"/>
+            <prop v="Dingbats" k="font"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="0" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="2.5" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties" type="Map">
+                  <Option name="char" type="Map">
+                    <Option value="true" name="active" type="bool"/>
+                    <Option value="array('!', '&quot;', '#', '$', '%', '&amp;', '\'', '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8',&#xd;&#xa;'9', ':', ';', '&lt;', '=', '>', '?', '@', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',&#xd;&#xa;'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', '\\', ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',&#xd;&#xa;'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', ') ', '}', '~', 'Ä', 'Ö','Å', 'ä', 'ö', 'å')[rand(0,99)]" name="expression" type="QString"/>
+                    <Option value="3" name="type" type="int"/>
+                  </Option>
+                </Option>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+</qgis_style>
