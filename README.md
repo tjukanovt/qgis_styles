@@ -3,16 +3,16 @@ Collection of resources to take your QGIS cartography to the next level
 
 Collection currently consists of four styles.
 
-''Pencilish''
+**Pencilish**
 ![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png?raw=true)
 
-''Qlimt''
+**Qlimt**
 ![Qlimt style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qlimt_world.png?raw=true)
 
-''Digital Rain''
+**Digital Rain**
 ![Digital Rain style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/digital_rain.png?raw=true)
 
-''Qartoon''
+**Qartoon**
 ![Qartoon style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qartoon_usa.png?raw=true)
 
 
