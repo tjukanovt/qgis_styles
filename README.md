@@ -6,16 +6,16 @@ Styles are created with QGIS 3.12, but some of them should work also on older ve
 Collection currently consists of four styles.
 
 **Pencilish**
-![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png | width=100)
+![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png)
 
 **Qlimt**
-![Qlimt style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qlimt_world.png | width=100)
+![Qlimt style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qlimt_world.png)
 
 **Digital Rain**
-![Digital Rain style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/digital_rain.png | width=100)
+![Digital Rain style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/digital_rain.png)
 
 **Qartoon**
-![Qartoon style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qartoon_usa.png | width=100)
+![Qartoon style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qartoon_usa.png)
 
 
 ## How to use the styles in QGIS
