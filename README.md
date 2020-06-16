@@ -1,19 +1,21 @@
 # QGIS styles
-Collection of resources to take your QGIS cartography to the next level
+Collection of resources to take your QGIS cartography to the next level.
+
+Styles are created with QGIS 3.12, but some of them should work also on older versions of QGIS if you modfiy the XML by hand and change the *qgis_style* version on top of the file to **1**. 
 
 Collection currently consists of four styles.
 
 **Pencilish**
-![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png?raw=true)
+![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png?raw=true | width=100)
 
 **Qlimt**
-![Qlimt style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qlimt_world.png?raw=true)
+![Qlimt style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qlimt_world.png?raw=true | width=100)
 
 **Digital Rain**
-![Digital Rain style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/digital_rain.png?raw=true)
+![Digital Rain style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/digital_rain.png?raw=true | width=100)
 
 **Qartoon**
-![Qartoon style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qartoon_usa.png?raw=true)
+![Qartoon style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qartoon_usa.png?raw=true | width=100)
 
 
 ## How to use the styles in QGIS
@@ -24,3 +26,5 @@ Click the image below to open a short YouTube video that shows you how to import
 [![Check instructions for style import from this video](http://i3.ytimg.com/vi/zZW97unRBRw/maxresdefault.jpg)](https://www.youtube.com/watch?v=zZW97unRBRw)
 
 You can also use [QGIS Resource Sharing plugin](http://qgis-contribution.github.io/QGIS-ResourceSharing/author/repository-structure.html)
+
+All the styles work with any polygon layer and you can try them out for example with [Natural Earth data](
