@@ -3,7 +3,7 @@ Collection of resources to take your QGIS cartography to the next level.
 
 Styles are created with QGIS 3.12, but some of them should work also on older versions of QGIS if you modfiy the XML by hand and change the *qgis_style* version on top of the file to **1**. 
 
-Collection currently consists of four styles.
+Collection currently consists of five styles.
 
 **Pencilish**
 ![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png)
@@ -17,6 +17,8 @@ Collection currently consists of four styles.
 **Qartoon**
 ![Qartoon style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qartoon_usa.png)
 
+**Zebra**
+![Zebra style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/zebra.png)
 
 ## How to use the styles in QGIS
 
