@@ -1,0 +1,72 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol type="fill" alpha="1" name="zebra" clip_to_extent="1" force_rhr="0">
+      <layer enabled="1" locked="0" class="LinePatternFill" pass="0">
+        <prop k="angle" v="45"/>
+        <prop k="color" v="141,90,153,255"/>
+        <prop k="distance" v="3.75"/>
+        <prop k="distance_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="distance_unit" v="MM"/>
+        <prop k="line_width" v="0.26"/>
+        <prop k="line_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="line_width_unit" v="MM"/>
+        <prop k="offset" v="0"/>
+        <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="offset_unit" v="MM"/>
+        <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+        <prop k="outline_width_unit" v="MM"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option type="Map" name="properties">
+              <Option type="Map" name="lineAngle">
+                <Option value="true" type="bool" name="active"/>
+                <Option value="360-&#xd;&#xa;with_variable('my_geom',&#xd;&#xa;CASE WHEN &#xd;&#xa; num_geometries( $geometry)>1&#xd;&#xa; THEN &#xd;&#xa;   geometry_n(  $geometry,  @geometry_part_num)&#xd;&#xa;  ELSE&#xd;&#xa;    $geometry&#xd;&#xa;  END,&#xd;&#xa;&#x9;round( degrees( azimuth( &#xd;&#xa;&#x9;   point_n( oriented_bbox(  @my_geom  ),1), &#xd;&#xa;&#x9;   point_n( oriented_bbox(  @my_geom   ),2)))&#xd;&#xa;&#x9;   ,1)&#xd;&#xa;  )" type="QString" name="expression"/>
+                <Option value="3" type="int" name="type"/>
+              </Option>
+            </Option>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <symbol type="line" alpha="1" name="@zebra@0" clip_to_extent="1" force_rhr="0">
+          <layer enabled="1" locked="0" class="SimpleLine" pass="0">
+            <prop k="capstyle" v="square"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="line_color" v="0,0,0,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="3"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="ring_filter" v="0"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option type="Map" name="properties">
+                  <Option type="Map" name="outlineWidth">
+                    <Option value="false" type="bool" name="active"/>
+                    <Option value="1" type="int" name="type"/>
+                    <Option value="" type="QString" name="val"/>
+                  </Option>
+                </Option>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
