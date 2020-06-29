@@ -24,4 +24,4 @@ Click the image below to open a short YouTube video that shows you how to import
 
 You can also use [QGIS Resource Sharing plugin](http://qgis-contribution.github.io/QGIS-ResourceSharing/author/repository-structure.html)
 
-All the styles work with any polygon layer and you can try them out for example with [Natural Earth data](
+All the styles work with any polygon layer and you can try them out for example with [Natural Earth data](https://www.naturalearthdata.com/)
