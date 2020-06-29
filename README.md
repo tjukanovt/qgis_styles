@@ -5,21 +5,15 @@ Styles are created with QGIS 3.12, but some of them should work also on older ve
 
 Collection currently consists of five styles.
 
-**Pencilish**
 ![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png)
 
-**Qlimt**
 ![Qlimt style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qlimt_world.png)
 
-**Digital Rain**
 ![Digital Rain style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/digital_rain.png)
 
-**Qartoon**
 ![Qartoon style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/qartoon_usa.png)
 
-**Zebra**
 ![Zebra style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/zebra.png)
-
 
 ## How to use the styles in QGIS
 
