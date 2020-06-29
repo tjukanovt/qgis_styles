@@ -20,6 +20,7 @@ Collection currently consists of five styles.
 **Zebra**
 ![Zebra style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/zebra.png)
 
+
 ## How to use the styles in QGIS
 
 You can clone this repository and import the styles via Style Manager.
