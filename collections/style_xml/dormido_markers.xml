@@ -56,6 +56,11 @@
                     <Option value="randf(0.1,0.3)" type="QString" name="expression"/>
                     <Option value="3" type="int" name="type"/>
                   </Option>
+                  <Option type="Map" name="outlineWidth">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(0.25,0.5)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
                   <Option type="Map" name="width">
                     <Option value="true" type="bool" name="active"/>
                     <Option value="randf(5.9,6.1)" type="QString" name="expression"/>
@@ -106,7 +111,7 @@
                   </Option>
                   <Option type="Map" name="outlineWidth">
                     <Option value="true" type="bool" name="active"/>
-                    <Option value="randf(0.1,0.3)" type="QString" name="expression"/>
+                    <Option value="randf(0.25,0.5)" type="QString" name="expression"/>
                     <Option value="3" type="int" name="type"/>
                   </Option>
                   <Option type="Map" name="width">
@@ -159,7 +164,7 @@
                   </Option>
                   <Option type="Map" name="outlineWidth">
                     <Option value="true" type="bool" name="active"/>
-                    <Option value="randf(0.1,0.3)" type="QString" name="expression"/>
+                    <Option value="randf(0.25,0.5)" type="QString" name="expression"/>
                     <Option value="3" type="int" name="type"/>
                   </Option>
                   <Option type="Map" name="width">
