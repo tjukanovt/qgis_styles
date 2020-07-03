@@ -3,7 +3,9 @@ Collection of resources to take your QGIS cartography to the next level.
 
 Styles are created with QGIS 3.12, but some of them should work also on older versions of QGIS if you modfiy the XML by hand and change the *qgis_style* version on top of the file to **1**. 
 
-Collection currently consists of five styles.
+Collection currently consists of for example following styles.
+
+![Dormido style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/dormido1.png)
 
 ![Pecilish style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/pencilish_fi.png)
 
