@@ -1,0 +1,209 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol force_rhr="0" type="fill" alpha="1" name="dormido_markers" clip_to_extent="1">
+      <layer enabled="1" class="RandomMarkerFill" pass="0" locked="0">
+        <prop v="1" k="clip_points"/>
+        <prop v="1" k="count_method"/>
+        <prop v="250" k="density_area"/>
+        <prop v="MM" k="density_area_unit"/>
+        <prop v="3x:0,0,0,0,0,0" k="density_area_unit_scale"/>
+        <prop v="50" k="point_count"/>
+        <prop v="365218334" k="seed"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <symbol force_rhr="0" type="marker" alpha="1" name="@dormido_markers@0" clip_to_extent="1">
+          <layer enabled="1" class="EllipseMarker" pass="0" locked="0">
+            <prop v="0" k="angle"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="solid" k="outline_style"/>
+            <prop v="0" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="6" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="4.5" k="symbol_height"/>
+            <prop v="3x:0,0,0,0,0,0" k="symbol_height_map_unit_scale"/>
+            <prop v="MM" k="symbol_height_unit"/>
+            <prop v="circle" k="symbol_name"/>
+            <prop v="6" k="symbol_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="symbol_width_map_unit_scale"/>
+            <prop v="MM" k="symbol_width_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option type="Map" name="properties">
+                  <Option type="Map" name="height">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(5.9,6.1)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="outlineColor">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(0.1,0.3)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="width">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(5.9,6.1)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                </Option>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+          <layer enabled="1" class="EllipseMarker" pass="0" locked="0">
+            <prop v="0" k="angle"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="solid" k="outline_style"/>
+            <prop v="0" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="4" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="3" k="symbol_height"/>
+            <prop v="3x:0,0,0,0,0,0" k="symbol_height_map_unit_scale"/>
+            <prop v="MM" k="symbol_height_unit"/>
+            <prop v="circle" k="symbol_name"/>
+            <prop v="4" k="symbol_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="symbol_width_map_unit_scale"/>
+            <prop v="MM" k="symbol_width_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option type="Map" name="properties">
+                  <Option type="Map" name="height">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(3.9,4.1)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="offset">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="concat(&#xd;&#xa;randf(-0.1,0.1),',',&#xd;&#xa;randf(-0.1,0.1))" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="outlineWidth">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(0.1,0.3)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="width">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(3.9,4.1)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                </Option>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+          <layer enabled="1" class="EllipseMarker" pass="0" locked="0">
+            <prop v="0" k="angle"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="1" k="horizontal_anchor_point"/>
+            <prop v="bevel" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="solid" k="outline_style"/>
+            <prop v="0" k="outline_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="2" k="size"/>
+            <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+            <prop v="MM" k="size_unit"/>
+            <prop v="1.5" k="symbol_height"/>
+            <prop v="3x:0,0,0,0,0,0" k="symbol_height_map_unit_scale"/>
+            <prop v="MM" k="symbol_height_unit"/>
+            <prop v="circle" k="symbol_name"/>
+            <prop v="2" k="symbol_width"/>
+            <prop v="3x:0,0,0,0,0,0" k="symbol_width_map_unit_scale"/>
+            <prop v="MM" k="symbol_width_unit"/>
+            <prop v="1" k="vertical_anchor_point"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" type="QString" name="name"/>
+                <Option type="Map" name="properties">
+                  <Option type="Map" name="height">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(1.9,2.1)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="offset">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="concat(&#xd;&#xa;randf(-0.25,0.25),',',&#xd;&#xa;randf(-0.25,0.25))" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="outlineWidth">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(0.1,0.3)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                  <Option type="Map" name="width">
+                    <Option value="true" type="bool" name="active"/>
+                    <Option value="randf(1.8,2.2)" type="QString" name="expression"/>
+                    <Option value="3" type="int" name="type"/>
+                  </Option>
+                </Option>
+                <Option value="collection" type="QString" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+        <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+        <prop v="0,0,255,0" k="color"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="35,35,35,128" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.26" k="outline_width"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="solid" k="style"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option type="Map" name="properties">
+              <Option type="Map" name="outlineWidth">
+                <Option value="true" type="bool" name="active"/>
+                <Option value="randf(0.1,0.3)" type="QString" name="expression"/>
+                <Option value="3" type="int" name="type"/>
+              </Option>
+            </Option>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+</qgis_style>
