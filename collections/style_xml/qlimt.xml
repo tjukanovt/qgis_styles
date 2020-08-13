@@ -1,5 +1,5 @@
 <!DOCTYPE qgis_style>
-<qgis_style version="2">
+<qgis_style version="3">
   <symbols>
     <symbol alpha="1" name="qlimt" clip_to_extent="1" force_rhr="0" type="fill">
       <layer pass="0" locked="0" enabled="1" class="GeometryGenerator">
