@@ -17,6 +17,9 @@ Collection currently consists of for example following styles.
 
 ![Zebra style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/zebra.png)
 
+![Kenya Olympic Kit style](https://github.com/tjukanovt/qgis_styles/blob/master/sample_images/kenya_kit.png)
+
+
 ## How to use the styles in QGIS
 
 You can clone this repository and import the styles via Style Manager.
